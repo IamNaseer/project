@@ -35,3 +35,9 @@
 .course__top__left h2 {
   font-weight: 600;
 }
+.a{
+background-color: rgba(99, 210, 99, 0.404);
+}
+.a:hover{
+  background-color: rgba(88, 222, 88, 0.804);
+  }

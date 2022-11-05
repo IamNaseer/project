@@ -1,9 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
-import courseImg1 from "../../assests/images/web-design.png";
-import courseImg2 from "../../assests/images/graphics-design.png";
-import courseImg3 from "../../assests/images/ui-ux.png";
-import "./courses.css";
+import "../Styles/courses.css";
 import CourseCard from "./CourseCard";
 
 const coursesData = [
@@ -13,7 +10,9 @@ const coursesData = [
     lesson: 12,
     students: 12.5,
     rating: 5.9,
-    imgUrl: courseImg1,
+    // imgUrl: courseImg1,
+   imgUrl: "/Images/web-design.png"
+ 
   },
 
   {
@@ -22,7 +21,7 @@ const coursesData = [
     lesson: 12,
     students: 12.5,
     rating: 5.9,
-    imgUrl: courseImg2,
+    imgUrl:"/Images/graphics-design.png" 
   },
 
   {
@@ -31,7 +30,7 @@ const coursesData = [
     lesson: 12,
     students: 12.5,
     rating: 5.9,
-    imgUrl: courseImg3,
+    imgUrl:"/Images/ui-ux.png"
   },
 ];
 
@@ -51,7 +50,7 @@ const Courses = () => {
                 </p>
               </div>
 
-              <div className="w-50 text-end">
+              <div className="a">
                 <button className="btn">Explore Courses</button>
               </div>
             </div>

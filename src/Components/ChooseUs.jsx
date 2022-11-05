@@ -13,6 +13,7 @@ const ChooseUs = () => {
   return (
     <section>
       <Container>
+        <div className="main">
         <Row>
           <Col lg="6" md="6">
             <div className="choose__content">
@@ -57,6 +58,7 @@ const ChooseUs = () => {
             </div>
           </Col>
         </Row>
+        </div>
       </Container>
     </section>
   );

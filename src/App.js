@@ -1,8 +1,9 @@
-import logo from './logo.svg';
+
 import './App.css';
+import StudentProfile from './Components/StudentProfile';
 
 function App() {
-  // return (
+   return (
   //   // <div className="App">
   //   //   <header className="App-header">
   //   //     <img src={logo} className="App-logo" alt="logo" />
@@ -22,7 +23,11 @@ function App() {
   //   // </div>
   //   return <Home />;
   // );
-  return <Home />;
+  // return <Home />;
+
+//   <StudentProfile/>
+
+   );
 }
 
 export default App;

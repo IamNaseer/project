@@ -11,11 +11,15 @@
     "react-bootstrap": "^2.5.0",
     "react-countup": "^6.3.2",
     "react-dom": "^18.2.0",
+<<<<<<< HEAD
     "react-player": "^2.11.0",
     "react-scripts": "5.0.1",
     "reactstrap": "^9.1.5",
     "remixicon": "^2.5.0",
     "slick-carousel": "^1.8.1",
+=======
+    "react-scripts": "^5.0.1",
+>>>>>>> c7cf6ab452e2da3f6adc1346cecf3899c148d363
     "web-vitals": "^2.1.4"
   },
   "scripts": {

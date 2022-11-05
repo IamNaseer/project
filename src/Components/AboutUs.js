@@ -1,9 +1,8 @@
 import React from "react";
-import "./Styles./about.css";
+// import "./Styles/about.css";
 import { Container, Row, Col } from "reactstrap";
-import aboutImg from "./images/about-us.png";
 import CountUp from "react-countup";
-import "./Styles./about.css";
+import "../Styles/about.css";
 
 const AboutUs = () => {
   return (
@@ -12,7 +11,7 @@ const AboutUs = () => {
         <Row>
           <Col lg="6" md="6">
             <div className="about__img">
-              <img src={aboutImg} alt="" className="w-100" />
+              <img src={"/Images/about-us.png"} alt="" className="w-100" />
             </div>
           </Col>
 

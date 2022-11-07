@@ -1,12 +1,9 @@
-<<<<<<< HEAD
+
 import './App.css';
 import Home from './Components/Home';
 
-function App() {
-   return <Home />
-=======
 
-import './App.css';
+
 import StudentProfile from './Components/StudentProfile';
 
 function App() {
@@ -33,9 +30,10 @@ function App() {
   // return <Home />;
 
 //   <StudentProfile/>
+<></>
 
    );
->>>>>>> c7cf6ab452e2da3f6adc1346cecf3899c148d363
+
 }
 
 export default App;

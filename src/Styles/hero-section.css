@@ -1,23 +1,22 @@
 .hero__content h2 {
   font-weight: 600;
   line-height: 55px;
+  /* margin-left: 10%; */
+  /* width: 900px; */
 }
 
 .hero__content {
-  padding-top: 80px;
-}
-/* .search input {
-  border: none;
-  outline: none;
-  padding: 7px 10%;
-} */
+  margin-top: 60px;
+  padding-top: 160px;
+  padding-left: 40px;
+  margin-left: 7%;
 
-/* .search {
-  width: 60%;
-  border: 1px solid #17bf9d44;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border-radius: 50px;
-  margin-top: 20px;
-} */
+  /* width: 600px; */
+}
+.mb-5{
+  width: 500px;
+}
+
+.imag{
+  margin-top: 60px;
+}

@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
-import "./features.css";
+import "../Styles/features.css";
 
 const FeatureData = [
   {

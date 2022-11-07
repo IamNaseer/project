@@ -1,6 +1,6 @@
 import React  from "react";
 import { Container } from 'reactstrap';
-import "./header.css";
+import "../Styles/header.css";
 const Header=()=>{
     return (
     <header className="header">
@@ -15,7 +15,7 @@ const Header=()=>{
             </div> */}
             <div className="logo">
             <h2 className=" d-flex align-items-center gap-1">
-              <i class="ri-pantone-line"></i> Learners.
+              <i class="ri-pantone-line">Upturn</i> 
             </h2>
           </div>
           <div class="container">

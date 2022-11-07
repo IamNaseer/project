@@ -1,9 +1,9 @@
 import React from "react";
-import "./testimonial.css";
+import "../Styles/testimonial.css";
 import { Container, Row, Col } from "reactstrap";
 import Slider from "react-slick";
 
-import img from "../../assests/images/testimonial01.png";
+// import img from "../../assests/images/testimonial01.png";
 
 const Testimonials = () => {
   const settings = {
@@ -22,7 +22,7 @@ const Testimonials = () => {
           <Col lg="10" md="12" className="m-auto">
             <div className="testimonial__wrapper d-flex justify-content-between align-items-center ">
               <div className="testimonial__img w-50">
-                <img src={img} alt="" className="w-100" />
+                <img src={"/Images/testimonial01.png"} alt="" className="w-100" />
               </div>
 
               <div className="testimonial__content w-50">

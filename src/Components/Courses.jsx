@@ -49,7 +49,7 @@ const Courses = () => {
                   voluptatem recusandae reprehenderit!
                 </p>
               </div>
-
+{/* <br></br> */}
               <div className="a">
                 <button className="btn">Explore Courses</button>
               </div>

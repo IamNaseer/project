@@ -1,21 +1,16 @@
 
-import React, { useState } from "react";
+import React from "react";
 import { Container, Row, Col } from "reactstrap";
-
-// import chooseImg from "../../assests/images/why-choose-us.png";
 import "../Styles/choose-us.css";
 
-import ReactPlayer from "react-player";
-
-
 const ChooseUs = () => {
-  const [showVideo, setShowVideo] = useState(false);
+
   return (
     <section>
       <Container>
         <div className="main">
         <Row>
-          <Col lg="6" md="6">
+          <Col>
             <div className="choose__content">
               <h2>Why Choose Us</h2>
               <p>
@@ -30,31 +25,10 @@ const ChooseUs = () => {
             </div>
           </Col>
 
-          <Col lg="6" md="6">
+          <Col lg="6">
             <div className="choose__img">
-              {showVideo ? (
-                <span className="yv">
-                <ReactPlayer
-                  url="https://www.youtube.com/watch?v=JlRfIUH8ENww"
-                  controls
-                  width="100%"
-                  height="430px"
-                />
-                </span>
-              ) : (
-                <img src={"/Images/why-choose-us.png"} alt="" className="w-100"
-                width= "600px"
-                 />
-              )}
-
-              {!showVideo && (
-                <span className="play__icon">
-                  <i
-                    class="ri-play-circle-line"
-                    onClick={() => setShowVideo(!showVideo)}
-                  ></i>
-                </span>
-              )}
+             
+    <iframe width="620" height="404" src="https://www.youtube.com/embed/FvbUy6ZOG6s" title="HIS 101 (8) - First Zoom Class Session from Aug 18th, 2020" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
           </Col>
         </Row>

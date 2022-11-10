@@ -9,13 +9,13 @@ const AboutUs = () => {
     <section>
       <Container>
         <Row>
-          <Col lg="6" md="6">
+          <Col lg="6" ml="6" >
             <div className="about__img">
               <img src={"/Images/about-us.png"} alt="" className="w-100" />
             </div>
           </Col>
 
-          <Col lg="6" md="6">
+          <Col>
             <div className="about__content">
               <h2>About Us</h2>
               <p>

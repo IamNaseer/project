@@ -1,5 +1,5 @@
 import React from 'react'
-import './ViewAs.css';
+//import './ViewAs.css';
 function ViewAssess() {
   return (
     <div>
@@ -8,7 +8,8 @@ function ViewAssess() {
         <h1>Assignment</h1>
         <iframe src="\updatedSRS.pdf" 
                 width="800" 
-                height="900">
+                height="900"
+                title='ass'>
         </iframe>
     </center>
     </div>

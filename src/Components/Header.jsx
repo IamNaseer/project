@@ -1,30 +1,43 @@
-import React  from "react";
-import { Container } from 'reactstrap';
+import React from "react";
+// import { Container } from "reactstrap";
+import { BsFillPersonFill } from "react-icons/bs";
+
+import { FaDelicious } from "react-icons/fa";
+
 import "../Styles/header.css";
-const Header=()=>{
-    return (
-    <header className="header">
-        <Container>
-            {/* <div className="navigation d-flex align-items-center justify-content-between">
-                <div className="logo">
-                    <h2>
-                        <i class="ri-pantone-line"></i>Online Tutorial System
-                        </h2>
-                </div>
 
-            </div> */}
-            <div className="logo">
-            <h2 className=" d-flex align-items-center gap-1">
-              <i class="ri-pantone-line">Upturn</i> 
-            </h2>
-          </div>
-          <div class="container">
-      <div class="typed-out">
-        <h1>Online Tutorial System </h1>
-        </div>
-    </div>
 
-        </Container>
-    </header>
-)};
+const Header = () => {
+  
+
+  return (
+    // <ul>
+    //   <li>
+    //     <a href="#1">Home</a>
+    //   </li>
+    //   <li>
+    //     <a href="#3">About</a>
+    //   </li>
+    // </ul>
+    
+       <nav class="navbar">
+        
+         <div class="logo"><FaDelicious />Upturn</div>
+         <ul class="nav-links">
+          
+           <div class="menu">
+             <li><a href="#1">Home</a></li>
+             <li><a href="#2">About</a></li>
+             <li>
+               <a href="#3">Courses</a>
+             </li>
+             
+             <li><a href="#4">Contact</a></li>
+             <li><a href="#"><BsFillPersonFill /></a></li>
+           </div>
+         </ul>
+       </nav>
+  );
+};
+
 export default Header;

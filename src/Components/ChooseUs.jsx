@@ -6,7 +6,7 @@ import "../Styles/choose-us.css";
 const ChooseUs = () => {
 
   return (
-    <section>
+    <section >
       <Container>
         <div className="main">
         <Row>

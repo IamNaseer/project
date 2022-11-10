@@ -1,6 +1,6 @@
 
 import './App.css';
-// import Home from './Components/Home';
+import Home from './Components/Home';
 //import StudentMymeeting from "./Components/StudeMymeeting";
 import ViewAsses from "./Components/ViewAssess";
 
@@ -12,10 +12,10 @@ function App() {
 
 return (
    <div>
-{/* <Home />
-<StudentProfile/>
-<StudentMymeeting/> */}
-<ViewAsses/>
+<Home />
+{/* <StudentProfile/>
+<StudentMymeeting/>
+<ViewAsses/> */}
 </div>
 
 );

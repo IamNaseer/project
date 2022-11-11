@@ -1,0 +1,22 @@
+.tutor img{
+   height: 60px;
+   width: 60px;
+   margin: 25px;
+}
+
+.tutor{
+    display: flex;
+}
+
+input{
+    margin-top: 25px;
+}
+
+.bio {
+    margin-left: 25px;
+}
+
+h2{
+    margin-top: 25px;
+    margin-left: 25px;
+}

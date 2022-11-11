@@ -36,7 +36,7 @@ const coursesData = [
 
 const Courses = () => {
   return (
-    <section>
+    <section  id="3">
       <Container>
         <Row>
           <Col lg="12" className="mb-5">

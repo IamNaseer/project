@@ -13,9 +13,15 @@ function App() {
 return (
    <div>
 <Home />
+
 {/* <StudentProfile/> */}
 {/* <StudentMymeeting/> */}
 {/* <ViewAsses/> */}
+
+{/* <StudentProfile/>
+<StudentMymeeting/>
+<ViewAsses/> */}
+
 </div>
 
 );

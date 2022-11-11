@@ -5,7 +5,7 @@ import "../Styles/hero-section.css";
 
 const HeroSection = () => {
   return (
-    <section>
+    <section id="1">
       <Container>
         <Row>
           <Col lg="6" md="6">

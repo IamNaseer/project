@@ -1,49 +1,61 @@
-.header {
-    width: 100%;
-    height: 80px;
-    line-height: 80px;
-}
-/* .header h3{
-    justify-content: center;
-    position: relative;
-    letter-spacing: 2px;
-    font-weight: 500;
-    position: relative;
-    left: 42%;
-} */
-/* .typed-out {
-    overflow: hidden;
-    border-right: .15em solid rgb(2, 2, 2);
-    font-size: 1.6rem;
-    width: 200px;
-  }
-  .container {
-    display: inline-block;
-  } */
-  .typed-out  h1 {
-    color: rgb(7, 7, 7);
-    font-family: monospace;
-    overflow: hidden; /* Ensures the content is not revealed until the animation */
-    /* border-right: .15em solid rgb(15, 15, 15);  */
-    /* The typwriter cursor */
-    white-space: nowrap; /* Keeps the content on a single line */
-    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-    letter-spacing: .10em; /* Adjust as needed */
-    animation: 
-      typing 2.5s steps(36, end),
-      blink-caret .9s step-end infinite;
-      margin-left: 20%;
-      
-  }
-  
-  /* The typing effect */
-  @keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
-  }
-  
-  /* The typewriter cursor effect */
-  @keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: rgb(17, 17, 17) }
-  }
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: teal;
+  color: #fff;
+ }
+ .nav-links a {
+  color: #fff;
+ }
+ /* LOGO */
+ .logo {
+  font-size: 32px;
+ }
+ /* NAVBAR MENU */
+ .menu {
+  display: flex;
+  gap: 1em;
+  font-size: 18px;
+ }
+ .menu li:hover {
+  background-color: #4c9e9e;
+  border-radius: 5px;
+  transition: 0.3s ease;
+ }
+ .menu li {
+  padding: 5px 14px;
+  list-style: none;
+ }
+ .menu  a{
+  text-decoration: none;
+ }
+ .menu  a:hover{
+color: gold;
+ }
+ .services {
+  position: relative; 
+ }
+ .dropdown {
+  background-color: rgb(1, 139, 139);
+  padding: 1em 0;
+  position: absolute; /*WITH RESPECT TO PARENT*/
+  display: none;
+  border-radius: 8px;
+  top: 35px;
+ }
+ .dropdown li + li {
+  margin-top: 10px;
+ }
+ .dropdown li {
+  padding: 0.5em 1em;
+  width: 8em;
+  text-align: center;
+ }
+ .dropdown li:hover {
+  background-color: #4c9e9e;
+ }
+ .services:hover .dropdown {
+  display: block;
+ }

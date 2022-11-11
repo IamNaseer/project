@@ -6,7 +6,7 @@ import "../Styles/about.css";
 
 const AboutUs = () => {
   return (
-    <section>
+    <section id="2">
       <Container>
         <Row>
           <Col lg="6" ml="6" >

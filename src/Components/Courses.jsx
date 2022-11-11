@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
 import "../Styles/courses.css";
-import CourseCard from "./CourseCard";
 
 const coursesData = [
   {
@@ -33,10 +32,9 @@ const coursesData = [
     imgUrl:"/Images/ui-ux.png"
   },
 ];
-
 const Courses = () => {
   return (
-    <section  id="3">
+    <section>
       <Container>
         <Row>
           <Col lg="12" className="mb-5">
@@ -49,15 +47,16 @@ const Courses = () => {
                   voluptatem recusandae reprehenderit!
                 </p>
               </div>
-{/* <br></br> */}
-              <div className="a">
+
+              <div className="w-50 text-end">
                 <button className="btn">Explore Courses</button>
               </div>
             </div>
           </Col>
-          {coursesData.map((item) => (
+          {coursesData.map((num) => (
             <Col lg="4" md="6" sm="6">
-              <CourseCard key={item.id} item={item} />
+              <img src={num.imgUrl} alt="" className="w-100" />
+              <h6 className="course__title mb-4">{num.title}</h6>
             </Col>
           ))}
         </Row>

@@ -1,0 +1,29 @@
+
+
+  .HomePage {
+    background-color: aqua;
+    width: 100%;
+    height: 100%;
+    border-radius:90px 15px;
+    background-color: lightgreen;
+  }
+
+.LoginPage {
+            /* background-color: lightgreen; */
+            color: white;
+            width: 400px;
+            height: 650px;
+            margin: auto;
+            border-radius:70px 25px;
+    
+        }
+        h1 {
+            color: black;
+            font-weight: bolder;
+        }
+
+
+
+
+
+

@@ -4,7 +4,7 @@ import { BsFillPersonFill } from "react-icons/bs";
 
 import { FaDelicious } from "react-icons/fa";
 
-import "../Styles/Header.css";
+import "../Styles/header.css";
 
 
 const Header = () => {

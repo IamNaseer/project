@@ -1,0 +1,80 @@
+.adding{
+    background-color:rgba(15, 236, 26, 0.662);
+    border-radius: 10px;
+    width:300px;
+    height:400px;
+    position:absolute;
+    top:60px;
+    right:350px;
+    padding:80px;
+    box-shadow: 10px 10px 8px 10px #888888;
+}
+.addvi{
+    padding:10px;
+    position: relative;
+    right:50px;
+    top:70px;
+    border-radius:7px;
+    border:2px solid rgba(79, 76, 76, 0.355);
+    background-image: linear-gradient(90deg,#29a7dd,#03fcba);
+    cursor: pointer
+}
+.addfi{
+    padding:10px;
+    position: relative;
+    right:20px;
+    left: 30px;
+    top:70px;
+    border-radius:7px;
+    border:1px solid rgba(79, 76, 76, 0.355);
+    background-image: linear-gradient(90deg,#29a7dd,#03fcba);
+    cursor: pointer;
+}
+.add{
+    padding:20px;
+    position: relative;
+    right:20px;
+    left: 5px;
+    top:90px;
+    border-radius:120px;
+    border:1px solid rgba(79, 76, 76, 0.426);
+    background-image: linear-gradient(90deg,#33c474,#03fcba);
+    cursor: pointer;
+    
+}
+.background{
+    width: 100%;
+    height: 100vh;
+    background-image:rgb(5, 145, 184);
+    overflow: hidden;
+}
+.in1{
+    margin: 40px;
+    height: 30px;
+    width: 250px;
+    border: 1px solid blue;
+    font-size: medium;
+    display: flex;
+    display: inline-block;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.in2{
+    margin: 40px;
+    width: 300px;
+  height: 100px;
+  border: 1px solid blue;
+  box-sizing: border-box;
+    font-size: medium;
+    display: flex;
+    display: inline-block;
+  justify-content: center;
+  align-items: center;
+}
+.addpic{
+    position: absolute;
+    right:600px;
+    top:100px;
+    
+}

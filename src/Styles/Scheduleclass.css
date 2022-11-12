@@ -1,0 +1,64 @@
+.background{
+    width: 100%;
+    height: 100vh;
+    background-image:rgb(208, 214, 115);
+    overflow: hidden;
+}
+.adding{
+    background-color:rgba(211, 27, 27, 0.662);
+    border-radius: 10px;
+    width:300px;
+    height:400px;
+    position:absolute;
+    top:70px;
+    right:350px;
+    padding:80px;
+    box-shadow: 10px 10px 8px 10px #888888;
+}
+.sessname{
+  top: 3px;  
+  bottom: 90px;
+  width: 20px;
+  }
+  .in1{
+    top: 6px;
+  }
+.about{
+  top: 2px;
+}
+input {
+  border: 1px solid #ccc;
+  color: #888;
+  margin: 0.5em;
+  vertical-align: middle;
+  outline: 0;
+  padding: 0.5em 1em;
+  border-radius: 4px;
+  width: calc(100% - 3em - 2px);
+  font-family: sans-serif;
+}
+#output {
+  background: lightyellow;
+  padding: 10px;
+  border: 1px solid tan;
+  margin: 0 0 10px 0;
+}
+
+.addpic{
+  position: absolute;
+  right:600px;
+  top:105px;
+  
+}
+button {
+  border: 9;
+  border-radius: 90px;
+  background: rgb(27, 197, 27);
+  top: 10px;
+  width: 45%;
+  padding: 13px 9px;
+  position: relative;
+  text-align: center;
+  left: 64px;
+  color: rgb(87, 5, 5);
+}

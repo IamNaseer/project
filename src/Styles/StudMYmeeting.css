@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.navbox{
+    width:100%;
+    height:60px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+    overflow: hidden;
+    background-color: #03fc80;
+    box-shadow:5px 5px 5px 5px #3b3e3caf;
+}
+.hed1{
+    position: relative;
+    bottom:23px;
+    left:60px;
+    font-size:20px;
+}
+.im1{
+    position: relative;
+    top:8px;
+    left:10px;
+}
+.background{
+    height:100vh;
+    width:100%;
+}
+.subimg1{
+border-radius: 7px;
+margin-left:120px;
+margin-top:50px;
+width:300px;
+height:170px;
+transition:  transform 0.25s;
+border:2px solid rgba(69, 67, 67, 0.559);
+}
+.subimg1:hover{
+    transform:scale(1.1);
+    border:2px solid black;
+}
+.methead{
+    font-weight:400;
+    font-size:18px;
+    position: relative;
+    left:130px;
+    top:25px;
+}
+.info1{
+    position: relative;
+    bottom:80px;
+    left:450px;
+}
+.status{
+    color: red;
+}
+.bt1{
+    position: relative;
+    bottom:60px;
+    left:450px;
+    padding:6px;
+    border: none;
+    border-radius:0px 10px 0px 10px;
+    background-image:linear-gradient(120deg,rgb(34, 145, 34),rgb(121, 187, 121));
+    cursor: pointer;
+}
+.bt2{
+    position: relative;
+    bottom:60px;
+    left:470px;
+    padding:6px;
+    border: none;
+    border-radius:0px 10px 0px 10px;
+    background-image:linear-gradient(120deg,rgb(34, 145, 34),rgb(121, 187, 121));
+    cursor: pointer;
+}
+.bt3{
+    position: relative;
+    bottom:60px;
+    left:490px;
+    padding:6px;
+    border: none;
+    border-radius:0px 10px 0px 10px;
+    background-image:linear-gradient(120deg,rgb(34, 145, 34),rgb(121, 187, 121));
+    cursor: pointer;
+}
+.methead1{
+    font-weight:400;
+    font-size:18px;
+    position: relative;
+    left:130px;
+    top:30px;
+}
+.subimg2{
+    border-radius: 7px;
+    margin-left:120px;
+    margin-top:50px;
+    width:300px;
+    height:170px;
+    transition:  transform 0.25s;
+    border:2px solid rgba(69, 67, 67, 0.559);
+    }
+    .subimg2:hover{
+        transform:scale(1.1);
+        border:2px solid black;
+    }
+    .info2{
+        position: relative;
+        bottom:80px;
+        left:450px;
+    }
+    .status1{
+        color:green;
+    }
+    .cart{
+        position: absolute;
+        bottom:80px;
+        right:20px;
+        width:600px;
+        height:300px;
+        border-radius:50% 5% 50% 5%;
+    }
+
